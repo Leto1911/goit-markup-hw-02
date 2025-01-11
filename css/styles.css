@@ -15,8 +15,7 @@ body {
 span {
   color: #2e2f42;
 }
-.head-nav .link,
-.head-nav .link-studio {
+.head-nav .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -25,9 +24,8 @@ span {
 }
 
 .head-nav .link:hover,
-.head-nav .link-studio:hover,
-.head-nav .link-studio:focus,
-.head-nav .link-studio:active {
+.head-nav .link:focus,
+.head-nav .link:active {
   color: #404bbf;
 }
 
@@ -56,6 +54,7 @@ span {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -86,13 +85,21 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
-name-text {
+.team-foto-list {
+  background-color: #ffffff;
+}
+.name-text {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -105,13 +112,21 @@ name-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio-title {
+.portfolio-list {
+  background-color: #e7e9fc;
+}
+.portfolio-page {
+  text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
-.image-page-title {
+.portfolio-image {
+  background-color: #ffffff;
+}
+.portfolio-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
