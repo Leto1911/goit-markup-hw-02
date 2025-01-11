@@ -12,7 +12,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-span {
+.span-header {
   color: #2e2f42;
 }
 .head-nav .link {
@@ -88,6 +88,9 @@ span {
 .team-page {
   background-color: #f4f4fd;
 }
+.team-list {
+  background-color: #ffffff;
+}
 .team-title {
   color: #2e2f42;
   font-size: 36px;
@@ -101,7 +104,7 @@ span {
   background-color: #ffffff;
 }
 .team-page {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .name-text {
   color: #2e2f42;
@@ -156,7 +159,7 @@ span {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-span {
+.span-footer {
   color: #f4f4fd;
 }
 
