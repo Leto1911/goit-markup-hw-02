@@ -88,7 +88,7 @@ body {
 .team-page {
   background-color: #f4f4fd;
 }
-.team-info {
+.team-list {
   background-color: #ffffff;
 }
 
@@ -101,12 +101,6 @@ body {
   text-transform: capitalize;
 }
 
-.team-list {
-  background-color: #ffffff;
-}
-.team-page {
-  background-color: #f4f4fd;
-}
 .name-text {
   color: #2e2f42;
   font-weight: 500;
