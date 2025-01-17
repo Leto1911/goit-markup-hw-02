@@ -3,12 +3,69 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 a {
   text-decoration: none;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 ul {
+  margin: 0;
+  padding-left: 0;
   list-style: none;
 }
+img {
+  box-sizing: border-box;
+}
+/*common*/
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+/*header*/
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.head-nav {
+  display: flex;
+  align-items: center;
+}
+.head-list {
+  display: flex;
+  gap: 40px;
+}
+.adress-list {
+  display: flex;
+  align-items: center;
+}
+
+/*Лого*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -18,10 +75,18 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
 .span-header {
   color: #2e2f42;
 }
-.head-nav .link {
+
+/*Хед навигация*/
+.head-list .link {
+  display: block;
+  padding: 40px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -29,17 +94,23 @@ ul {
   color: #2e2f42;
 }
 
-.head-nav .link:hover,
-.head-nav .link:focus,
-.head-nav .link:active {
+.head-list .link:hover,
+.head-list .link:focus,
+.head-list .link:active {
   color: #404bbf;
 }
-
+/*Адресс*/
 .adress {
   font-style: normal;
+  margin-left: auto;
+}
+.adress-list {
+  gap: 40px;
 }
 
 .adress .link {
+  padding: 24px 0;
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -50,7 +121,7 @@ ul {
 .adress .link:hover {
   color: #404bbf;
 }
-
+/*Герой*/
 .hero {
   background-color: #2e2f42;
 }
@@ -78,6 +149,7 @@ ul {
 .button:focus {
   background-color: #404bbf;
 }
+/*Список фишек*/
 .feature-title {
   color: #2e2f42;
   font-weight: 500;
@@ -91,6 +163,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*Команда*/
 .team-section {
   background-color: #f4f4fd;
 }
@@ -120,6 +193,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*Портфолио*/
 .portfolio {
   background-color: #ffffff;
 }
@@ -148,6 +222,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/*Нижняя часть*/
 .footer {
   background-color: #2e2f42;
 }
